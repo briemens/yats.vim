@@ -24,7 +24,7 @@ syntax region  typescriptTemplate
   \ start=/`/  skip=/\\\\\|\\`\|\n/  end=/`\|$/
   \ contains=typescriptTemplateSubstitution,typescriptSpecial,@Spell
   \ nextgroup=@typescriptSymbols
-  \ skipwhite skipempty
+  \ skipwhite skipempty fold
 
 "Array
 syntax region  typescriptArray matchgroup=typescriptBraces
